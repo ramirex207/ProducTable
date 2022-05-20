@@ -1,0 +1,10 @@
+.search-bar__conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 16px;
+
+}
+.search-bar__conteiner input{
+    border-radius: 5px;
+}
