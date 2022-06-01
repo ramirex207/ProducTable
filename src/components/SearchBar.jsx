@@ -5,10 +5,9 @@ function SearchBar() {
     return (
         <div className = 'search-bar__conteiner'>
             <input type="text" value='Search...'/>
-            <div className = 'search-bar__products'>
-                <input id = "show-products"   type="checkbox"/>
-                <label htmlFor="show-products">Only show products on Stock</label>
-            </div>
+            <input id = "show-products"   type="checkbox"/>
+            <label htmlFor="show-products">Only show products on Stock</label>
+            
             
         </div>
     )
