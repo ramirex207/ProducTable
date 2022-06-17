@@ -1,11 +1,18 @@
 .product-row{
     
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
     border-radius: 5px;
     margin-bottom: 8px;
     width: 90%;
     margin: 0 auto;
+    border: 1px solid black;
+}
+.product-row img{
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
 }
 .black{
     border: 2px solid black;
